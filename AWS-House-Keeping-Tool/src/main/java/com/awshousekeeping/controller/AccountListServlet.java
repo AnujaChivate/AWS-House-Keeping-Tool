@@ -15,7 +15,7 @@ import com.awshousekeeping.services.impl.AccountServiceImpl;
 public class AccountListServlet extends HttpServlet {
 
 	private AccountServiceImpl accountServiceImpl = new AccountServiceImpl();
-
+    // list of all accounts
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException{
 		request.setAttribute("accounts", accountServiceImpl.listAllAccounts());
