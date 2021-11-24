@@ -1,0 +1,1 @@
+<button class="delete" data-target="http://example.com/post/post-id/" data-method="DELETE" data-disabled="true">Delete</button>

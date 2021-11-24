@@ -1,0 +1,55 @@
+
+<div class="demo">
+	<!-- start: MAIN NAVIGATION MENU -->
+	<nav class="navbar navbar-default">
+
+		<a href="/" class="navbar-brand">HK Tool</a>
+
+		<ul class="nav navbar-nav">
+			<li class="active"><a href="home.do">Home</a></li>
+
+			<li><a href="User-List.do"><i class="fa fa-user"></i> <span
+					class="title">User Management</span><i class="icon-arrow"></i> </a></li>
+
+			<li><a href="Account-List.do"><i class="fa fa-map-marker"></i>
+					<span class="title">AWS Accounts Management</span><i
+					class="icon-arrow"></i> </a></li>
+
+			<li><a href="Budget-List.do"><i class="fa fa-map-marker"></i>
+					<span class="title">Budget</span> </a></li>
+
+
+			<li class="dropdown"><a href="#" class="dropdown-toggle"
+				data-toggle="dropdown" role="button" aria-haspopup="true"
+				aria-expanded="false">Billing Dash board <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="listawss3.do">S3 Security</a></li>
+					<li><a href="listawsec2.do">EC2 Security</a></li>
+					<li><a href="#">EBS</a></li>
+					<li role="separator" class="divider"></li>
+					<li><a href="billing-dashboard.do">other</a></li>
+				</ul></li>
+
+
+
+			<li class="dropdown"><a href="#" class="dropdown-toggle"
+				data-toggle="dropdown" role="button" aria-haspopup="true"
+				aria-expanded="false">Reposts <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="#">Sent Email</a></li>
+					<li><a href="listawsIAM.do">user Login</a></li>
+					<li><a href="#">view all Alerts</a></li>
+					<li role="separator" class="divider"></li>
+					<li><a href="#">other</a></li>
+				</ul></li>
+
+		</ul>
+
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="logout.do">Logout</a></li>
+		</ul>
+		<!-- end: MAIN NAVIGATION MENU -->
+</div>
+
+
+</nav>

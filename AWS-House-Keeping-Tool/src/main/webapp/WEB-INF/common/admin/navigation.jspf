@@ -1,0 +1,46 @@
+<!-- start: MAIN NAVIGATION MENU -->
+<nav class="navbar navbar-default">
+
+	<a href="/" class="navbar-brand">HKTool-Admin</a>
+
+	<ul class="nav navbar-nav">
+		<li class="active"><a href="#">Home</a></li>
+
+		<li><a href="#"><i class="fa fa-map-marker"></i> <span
+				class="title">Budget</span> </a></li>
+
+
+		<li class="dropdown"><a href="#" class="dropdown-toggle"
+			data-toggle="dropdown" role="button" aria-haspopup="true"
+			aria-expanded="false">Billing Dashboard <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#">S3 Security</a></li>
+				<li><a href="#">EC2 Security</a></li>
+				<li><a href="#">EBS</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">other</a></li>
+			</ul></li>
+
+
+
+		<li class="dropdown"><a href="#" class="dropdown-toggle"
+			data-toggle="dropdown" role="button" aria-haspopup="true"
+			aria-expanded="false">Reposts <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#">Sent Email</a></li>
+				<li><a href="#">user Login</a></li>
+				<li><a href="#">view all Alerts</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#">other</a></li>
+			</ul></li>
+
+	</ul>
+
+	<ul class="nav navbar-nav navbar-right">
+		<li><a href="logout.do">Logout</a></li>
+	</ul>
+	<!-- end: MAIN NAVIGATION MENU -->
+
+
+
+</nav>
